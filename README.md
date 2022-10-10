@@ -1,2 +1,2 @@
-# factorIT_Challenge
-Desafio tecnico para FactorIT
+# factorIT-Challenge
+Desafio tecnico de Factor IT
