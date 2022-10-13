@@ -17,7 +17,7 @@ public class Cart {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-    @OneToMany( cascade = CascadeType.MERGE)
+    @ManyToMany( cascade = CascadeType.MERGE)
     List<Product> products;
 
     public Cart(List<Product> products) {
