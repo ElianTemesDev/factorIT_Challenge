@@ -25,15 +25,14 @@ const StorePage = (prop) => {
             <Toast.Header closeButton={false}>
               <strong className="me-auto"><span role="img" aria-label="Brillos">✨✨</span> Bienvenidos <span role="img" aria-label="Brillos">✨✨</span></strong>
             </Toast.Header>
-            <Toast.Body>Disfruten la tienda! Lastimosamente no pude llegar a implementar 
-              todos los features solicitados en el ejercicio pero lo que llegue a implementar creo que quedo muy solido, espero sea de su agrado.</Toast.Body>
+            <Toast.Body>Disfruten la tienda!</Toast.Body>
           </Toast>
         </ToastContainer>
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">
                 <img src="https://www.factorit.com.ar/images/img-servicios.png" alt='logo' width="100" height="80" />{' '}                
             </Navbar.Brand>
-            <h1>Tienda FactorIT</h1>
+            <h1>Tienda</h1>
             <Nav>
               <Button variant="danger btn-lg" className="router-button" onClick={ routeChange }><span role="img" aria-label="Ir a Carrito">Carrito: 🛒</span></Button>
             </Nav>
